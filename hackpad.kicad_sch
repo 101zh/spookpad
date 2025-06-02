@@ -2419,6 +2419,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 83.82) (xy 226.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a78c238-fa39-4b7b-a3fa-e0ab5287b0a0")
+	)
+	(wire
+		(pts
 			(xy 41.91 151.13) (xy 66.04 151.13)
 		)
 		(stroke
@@ -2459,6 +2469,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 86.36) (xy 223.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2606da84-4aa7-4bed-813f-e417543f423f")
+	)
+	(wire
+		(pts
 			(xy 114.3 151.13) (xy 138.43 151.13)
 		)
 		(stroke
@@ -2476,26 +2496,6 @@
 			(type default)
 		)
 		(uuid "2d460977-7891-4b65-b6dd-99747f3d2316")
-	)
-	(wire
-		(pts
-			(xy 226.06 106.68) (xy 217.17 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e6370c9-27da-4485-baa7-7359a407d82b")
-	)
-	(wire
-		(pts
-			(xy 220.98 97.79) (xy 223.52 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3487ffc9-8d21-4b68-94cf-c79312b00c65")
 	)
 	(wire
 		(pts
@@ -2639,16 +2639,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 97.79) (xy 226.06 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "577d4d54-61a8-4890-9318-967a57f0d445")
-	)
-	(wire
-		(pts
 			(xy 54.61 77.47) (xy 69.85 77.47)
 		)
 		(stroke
@@ -2656,6 +2646,16 @@
 			(type default)
 		)
 		(uuid "58b5f727-2d7f-4a6d-adc4-145b557989f7")
+	)
+	(wire
+		(pts
+			(xy 218.44 90.17) (xy 218.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61100045-3b00-42ce-8ff6-6945bd73c89f")
 	)
 	(wire
 		(pts
@@ -2786,6 +2786,16 @@
 			(type default)
 		)
 		(uuid "852cfcd4-60be-4164-8a3f-a9fc0b3d668a")
+	)
+	(wire
+		(pts
+			(xy 218.44 86.36) (xy 223.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85abc779-fb37-471c-9d49-e4d1fd476dee")
 	)
 	(wire
 		(pts
@@ -3049,16 +3059,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 106.68) (xy 217.17 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6ae0474-7261-4ccf-a629-4a6b2606ba60")
-	)
-	(wire
-		(pts
 			(xy 66.04 132.08) (xy 90.17 132.08)
 		)
 		(stroke
@@ -3245,22 +3245,22 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 228.6 97.79 270)
+		(at 228.6 90.17 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "62652764-5f0d-4487-bff9-f858eb4c834b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6 104.2828 90)
+			(at 228.6 83.6772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3463,6 +3463,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 135.89 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5be9c16-cff0-41c8-8cea-014013d27118")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.3972 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW11S2"
 		(shape input)
 		(at 154.94 54.61 0)
@@ -3487,22 +3509,22 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 231.14 97.79 270)
+		(at 231.14 90.17 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ad925dbc-a266-4456-ae7b-4acd8ac140e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 104.3433 90)
+			(at 231.14 83.6167 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3525,28 +3547,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 135.89 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1c59c74-6453-4002-a646-32f156d3c9a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.3972 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3819,7 +3819,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 36.83 48.26 0)
 			(effects
 				(font
@@ -4181,7 +4181,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 97.79 0)
+		(at 218.44 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4190,7 +4190,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a670a9c-e55d-4daa-b732-59a1f9cadabb")
 		(property "Reference" "#PWR01"
-			(at 220.98 104.14 0)
+			(at 218.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4199,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 102.87 0)
+			(at 218.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 97.79 0)
+			(at 218.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,7 +4216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 97.79 0)
+			(at 218.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4225,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 97.79 0)
+			(at 218.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +4501,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 143.51 48.006 0)
 			(effects
 				(font
@@ -4620,7 +4620,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 217.17 104.14 0)
+		(at 226.06 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4628,7 +4628,7 @@
 		(dnp no)
 		(uuid "4b81e526-f163-4ead-adca-2b0f931f91b6")
 		(property "Reference" "#PWR04"
-			(at 217.17 107.95 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4637,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 217.17 99.06 0)
+			(at 226.06 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,7 +4645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 104.14 0)
+			(at 226.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4654,7 +4654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 104.14 0)
+			(at 226.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +4663,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 217.17 104.14 0)
+			(at 226.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,7 +5015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -5335,7 +5335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 67.31 48.26 0)
 			(effects
 				(font
@@ -5765,7 +5765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 67.31 67.31 0)
 			(effects
 				(font
@@ -5833,7 +5833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 36.83 67.31 0)
 			(effects
 				(font
@@ -6217,7 +6217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 36.83 86.36 0)
 			(effects
 				(font
@@ -6261,7 +6261,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 228.6 92.71 270)
+		(at 226.06 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6270,7 +6270,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9f5e503-0732-427e-942f-9ca0ff879615")
 		(property "Reference" "J1"
-			(at 227.33 87.63 90)
+			(at 227.33 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,15 +6278,15 @@
 			)
 		)
 		(property "Value" "OLED Connection"
-			(at 227.33 90.17 90)
+			(at 227.33 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 228.6 92.71 0)
+		(property "Footprint" "OLED0.91:SSD1306-0.91-OLED-4pin-128x32"
+			(at 226.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 92.71 0)
+			(at 226.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6304,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 228.6 92.71 0)
+			(at 226.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 52.07 48.26 0)
 			(effects
 				(font
@@ -6531,7 +6531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 52.07 86.36 0)
 			(effects
 				(font
@@ -6763,7 +6763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 180.34 48.006 0)
 			(effects
 				(font
