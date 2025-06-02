@@ -2214,12 +2214,6 @@
 		(uuid "1a0e8a30-f4c3-4b26-8091-fb83d41f045a")
 	)
 	(junction
-		(at 39.37 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fbe49fd-2297-49bd-81cf-4b2b6ef0bac0")
-	)
-	(junction
 		(at 114.3 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2230,6 +2224,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "251c16cb-1fdf-42aa-b15a-5bcf28301ee0")
+	)
+	(junction
+		(at 69.85 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33d64151-7afb-4d74-bcb3-5ec2fea88fdc")
 	)
 	(junction
 		(at 69.85 58.42)
@@ -2268,6 +2268,12 @@
 		(uuid "65e26cb8-c4d1-4d8a-a682-75c8c49a3a8b")
 	)
 	(junction
+		(at 54.61 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ae07708-c47a-43bb-80cd-1ace558b51fe")
+	)
+	(junction
 		(at 90.17 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2280,12 +2286,6 @@
 		(uuid "730e30ae-1149-40ea-8cd3-5a063f78108c")
 	)
 	(junction
-		(at 54.61 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7390a80c-9d11-43a4-977f-1163d378bb1f")
-	)
-	(junction
 		(at 114.3 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2296,12 +2296,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "925d937c-ab61-42fa-b030-c86263ecf18f")
-	)
-	(junction
-		(at 49.53 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9901e06e-0021-4976-8456-4f3167f56098")
 	)
 	(junction
 		(at 66.04 177.8)
@@ -2322,16 +2316,16 @@
 		(uuid "bd3a1aef-df84-4ceb-8ff4-825d98c84a7c")
 	)
 	(junction
+		(at 64.77 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c70b8847-24bb-4713-b045-a0a50f789d1c")
+	)
+	(junction
 		(at 49.53 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8f41626-e453-480f-9952-05fbf72b362c")
-	)
-	(junction
-		(at 34.29 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddb13ac7-8fff-4e56-b401-8825d87c04ea")
 	)
 	(junction
 		(at 41.91 177.8)
@@ -2369,7 +2363,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 45.72) (xy 49.53 64.77)
+			(xy 69.85 96.52) (xy 85.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06368658-8d7b-41fa-8b2a-458e7db244dc")
+	)
+	(wire
+		(pts
+			(xy 49.53 33.02) (xy 49.53 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2509,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 58.42) (xy 39.37 58.42)
+			(xy 29.21 58.42) (xy 69.85 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2536,16 +2540,6 @@
 			(type default)
 		)
 		(uuid "3dc556c7-7854-4fa6-8455-221c448edddb")
-	)
-	(wire
-		(pts
-			(xy 39.37 58.42) (xy 54.61 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f3f942f-f3ed-401a-adba-69e0919942b0")
 	)
 	(wire
 		(pts
@@ -2649,6 +2643,26 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 96.52) (xy 69.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b81b667-8718-4d85-98b2-41c09a9586b6")
+	)
+	(wire
+		(pts
+			(xy 64.77 64.77) (xy 64.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b88ab25-94b6-4462-ae68-d3f6822e021b")
+	)
+	(wire
+		(pts
 			(xy 218.44 90.17) (xy 218.44 86.36)
 		)
 		(stroke
@@ -2666,16 +2680,6 @@
 			(type default)
 		)
 		(uuid "61457229-92c0-4952-9464-2df11092e2c8")
-	)
-	(wire
-		(pts
-			(xy 34.29 33.02) (xy 34.29 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67624558-895d-4a9f-b593-b57a1a2422ef")
 	)
 	(wire
 		(pts
@@ -2779,6 +2783,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 33.02) (xy 80.01 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849148b7-83e1-489e-aa8d-ec04282ac332")
+	)
+	(wire
+		(pts
 			(xy 66.04 132.08) (xy 66.04 135.89)
 		)
 		(stroke
@@ -2819,16 +2833,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 58.42) (xy 69.85 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87b8d2fd-3a5e-45a4-ab60-22f1a81fe386")
-	)
-	(wire
-		(pts
 			(xy 138.43 132.08) (xy 138.43 135.89)
 		)
 		(stroke
@@ -2846,16 +2850,6 @@
 			(type default)
 		)
 		(uuid "8f8d2cf5-d2fe-4708-ade7-11881ef64d78")
-	)
-	(wire
-		(pts
-			(xy 78.74 33.02) (xy 78.74 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94ac1370-a43b-4b3e-b92c-eaa7c11a2305")
 	)
 	(wire
 		(pts
@@ -2909,16 +2903,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 33.02) (xy 49.53 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f9011be-1d7c-4d54-8949-c1dd03cbf841")
-	)
-	(wire
-		(pts
 			(xy 90.17 157.48) (xy 114.3 157.48)
 		)
 		(stroke
@@ -2929,7 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 45.72) (xy 34.29 64.77)
+			(xy 34.29 33.02) (xy 34.29 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3355,7 +3339,7 @@
 	)
 	(global_label "SW22S1"
 		(shape input)
-		(at 78.74 64.77 0)
+		(at 80.01 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3365,7 +3349,7 @@
 		)
 		(uuid "82b82233-43d3-4121-a3dd-120b0c6a7c57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.2241 64.77 0)
+			(at 90.4941 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +3625,7 @@
 	)
 	(global_label "SW11S1"
 		(shape input)
-		(at 78.74 45.72 0)
+		(at 80.01 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3651,7 +3635,7 @@
 		)
 		(uuid "c6f72458-1c5b-49da-92b9-6b32e651483d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.2241 45.72 0)
+			(at 90.4941 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,7 +3691,7 @@
 	)
 	(global_label "Column 3"
 		(shape input)
-		(at 78.74 33.02 90)
+		(at 80.01 33.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3717,7 +3701,7 @@
 		)
 		(uuid "d6523488-af91-4223-9186-ff5aa2ed0d6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.74 24.1082 90)
+			(at 80.01 24.1082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3779,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 36.83 48.26 0)
+		(at 67.31 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3804,7 +3788,7 @@
 		(fields_autoplaced yes)
 		(uuid "07ffe033-2cbe-4117-a4bf-df320f71b751")
 		(property "Reference" "SW1"
-			(at 36.83 40.64 0)
+			(at 67.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3796,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 36.83 43.18 0)
+			(at 67.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3804,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 36.83 48.26 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +3813,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 48.26 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +3822,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 36.83 48.26 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6319,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 52.07 48.26 0)
+		(at 82.55 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6344,7 +6328,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb1c6e43-ee5d-4efe-b762-1b19cc1bdb69")
 		(property "Reference" "SW2"
-			(at 52.07 40.64 0)
+			(at 82.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6336,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 52.07 43.18 0)
+			(at 82.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6344,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 52.07 48.26 0)
+			(at 82.55 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 48.26 0)
+			(at 82.55 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6362,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 52.07 48.26 0)
+			(at 82.55 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +6635,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 54.61 54.61 90)
+		(at 85.09 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6660,7 +6644,7 @@
 		(fields_autoplaced yes)
 		(uuid "e107ca99-4fee-4e31-b0de-ed348c2e76bf")
 		(property "Reference" "D2"
-			(at 57.15 53.3399 90)
+			(at 87.63 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6653,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 57.15 55.8799 90)
+			(at 87.63 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6662,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 54.61 54.61 0)
+			(at 85.09 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6671,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 54.61 54.61 0)
+			(at 85.09 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6680,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 54.61 54.61 0)
+			(at 85.09 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6689,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 54.61 54.61 0)
+			(at 85.09 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6698,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 54.61 54.61 0)
+			(at 85.09 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +6866,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 39.37 54.61 90)
+		(at 69.85 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6891,7 +6875,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc31c211-ec1b-4b53-8330-1bde665131f5")
 		(property "Reference" "D1"
-			(at 41.91 53.3399 90)
+			(at 72.39 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6900,7 +6884,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 41.91 55.8799 90)
+			(at 72.39 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +6893,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 39.37 54.61 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,7 +6902,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 39.37 54.61 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +6911,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 39.37 54.61 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +6920,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 39.37 54.61 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,7 +6929,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 39.37 54.61 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
