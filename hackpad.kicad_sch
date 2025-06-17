@@ -3442,7 +3442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "3D_Model_Footprints:SW_Cherry_MX_1.00u_PCB_With_3D_Model"
 			(at 67.31 86.36 0)
 			(effects
 				(font
@@ -3664,7 +3664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "3D_Model_Footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 139.7 151.13 0)
 			(effects
 				(font
@@ -3960,7 +3960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "3D_Model_Footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 115.57 151.13 0)
 			(effects
 				(font
@@ -4036,7 +4036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "3D_Model_Footprints:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 143.51 48.006 0)
 			(effects
 				(font
@@ -4333,7 +4333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "3D_Model_Footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 88.9 157.48 0)
 			(effects
 				(font
@@ -4475,7 +4475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "3D_Model_Footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 113.03 157.48 0)
 			(effects
 				(font
@@ -4551,7 +4551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "3D_Model_Footprints:SW_Cherry_MX_1.00u_PCB_With_3D_Model"
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "3D_Model_Footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 64.77 157.48 0)
 			(effects
 				(font
@@ -4871,7 +4871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "3D_Model_Footprints:SW_Cherry_MX_1.00u_PCB_With_3D_Model"
 			(at 67.31 48.26 0)
 			(effects
 				(font
@@ -5093,7 +5093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "3D_Model_Footprints:SW_Cherry_MX_1.00u_PCB_With_3D_Model"
 			(at 82.55 67.31 0)
 			(effects
 				(font
@@ -5227,7 +5227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "3D_Model_Footprints:SW_Cherry_MX_1.00u_PCB_With_3D_Model"
 			(at 52.07 48.26 0)
 			(effects
 				(font
@@ -5295,7 +5295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "3D_Model_Footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 43.18 151.13 0)
 			(effects
 				(font
@@ -5459,7 +5459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "3D_Model_Footprints:SW_Cherry_MX_1.00u_PCB_With_3D_Model"
 			(at 67.31 67.31 0)
 			(effects
 				(font
@@ -5527,7 +5527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "3D_Model_Footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 91.44 151.13 0)
 			(effects
 				(font
@@ -5603,7 +5603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "3D_Model_Footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 67.31 151.13 0)
 			(effects
 				(font
@@ -5679,7 +5679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OLED0.91:SSD1306-0.91-OLED-4pin-128x32"
+		(property "Footprint" "3D_Model_Footprints:SSD1306-0.91-OLED-4pin"
 			(at 226.06 95.25 0)
 			(effects
 				(font
@@ -5753,7 +5753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "3D_Model_Footprints:SW_Cherry_MX_1.00u_PCB_With_3D_Model"
 			(at 82.55 86.36 0)
 			(effects
 				(font
@@ -5821,7 +5821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OPL:XIAO-RP2040-DIP"
+		(property "Footprint" "3D_Model_Footprints:XIAO-RP2040-DIP"
 			(at 154.178 116.078 0)
 			(effects
 				(font
@@ -5925,7 +5925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "3D_Model_Footprints:SW_Cherry_MX_1.00u_PCB_With_3D_Model"
 			(at 52.07 86.36 0)
 			(effects
 				(font
@@ -5993,7 +5993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "3D_Model_Footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 			(at 137.16 157.48 0)
 			(effects
 				(font
