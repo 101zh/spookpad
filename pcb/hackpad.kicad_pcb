@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../production/")
 		)
 	)
 	(net 0 "")
@@ -7326,7 +7326,7 @@
 			(net 26 "Column 0")
 			(pinfunction "GPIO26/ADC0/A0")
 			(pintype "passive")
-			(uuid "fc259978-3380-4dae-b181-d732eb615ea1")
+			(uuid "7bc660c9-4ec9-4c5d-a82a-9a8a3d58a2ae")
 		)
 		(pad "2" smd roundrect
 			(at -8.455 5.08)
@@ -7348,7 +7348,7 @@
 			(net 27 "Column 1")
 			(pinfunction "GPIO27/ADC1/A1")
 			(pintype "passive")
-			(uuid "5d85d93b-a1fb-4532-ad98-f035c5796ebf")
+			(uuid "ae1e5e9e-e718-4b59-b307-be0341677419")
 		)
 		(pad "3" smd roundrect
 			(at -8.455 2.54)
@@ -7370,7 +7370,7 @@
 			(net 28 "Column 2")
 			(pinfunction "GPIO28/ADC2/A2")
 			(pintype "passive")
-			(uuid "0b661917-0ce9-4874-9aa8-a5fd44396959")
+			(uuid "52dff001-2949-4257-b75d-c07f6d1a1715")
 		)
 		(pad "4" smd roundrect
 			(at -8.455 0)
@@ -7392,7 +7392,7 @@
 			(net 1 "Row 0")
 			(pinfunction "GPIO29/ADC3/A3")
 			(pintype "passive")
-			(uuid "d1190b48-5dd1-4d66-a8f4-c71c7ab312c2")
+			(uuid "05cf9526-c7d4-4861-abc6-db024b38b346")
 		)
 		(pad "5" smd roundrect
 			(at -8.455 -2.54)
@@ -7414,7 +7414,7 @@
 			(net 23 "SDA")
 			(pinfunction "GPIO6/SDA")
 			(pintype "passive")
-			(uuid "4b327fed-6a3e-4d6b-99f3-35a2e4a15d3d")
+			(uuid "c3f8cd9d-5dcd-48f5-ba37-8fd9e9dde7fd")
 		)
 		(pad "6" smd roundrect
 			(at -8.455 -5.08)
@@ -7436,7 +7436,7 @@
 			(net 24 "SCL")
 			(pinfunction "GPIO7/SCL")
 			(pintype "passive")
-			(uuid "cd1ad6c7-3ba0-430a-a24e-c49acd20c57d")
+			(uuid "81a1664e-c774-4262-9ed7-662e4775a709")
 		)
 		(pad "7" smd roundrect
 			(at -8.455 -7.62)
@@ -7458,7 +7458,7 @@
 			(net 11 "LED")
 			(pinfunction "GPIO0/TX")
 			(pintype "passive")
-			(uuid "aeef9191-9e2f-4a13-bd1e-ea32c81b69f6")
+			(uuid "53b0b1bb-a8d2-4f61-b613-e168136a1c62")
 		)
 		(pad "8" thru_hole circle
 			(at 7.62 -7.62 180)
@@ -7480,7 +7480,7 @@
 			(pinfunction "GPIO1/RX")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "4856fb2f-50de-4e39-bd6e-ce686141f5a1")
+			(uuid "398a5f6c-638d-4d0d-9943-9b36572d5d26")
 		)
 		(pad "9" thru_hole circle
 			(at 7.62 -5.08 180)
@@ -7502,7 +7502,7 @@
 			(pinfunction "GPIO2/SCK")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "8893c451-33e6-49a3-b36d-d0c65ff4609e")
+			(uuid "600a66f0-a819-4c82-a556-ac66c2927fc8")
 		)
 		(pad "10" thru_hole circle
 			(at 7.62 -2.54 180)
@@ -7524,7 +7524,7 @@
 			(pinfunction "GPIO4/MISO")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "da98e098-46b1-4d53-bbad-74d36fbd0eec")
+			(uuid "8b34cbdd-3ab4-484c-abb6-91a5ef3c5951")
 		)
 		(pad "11" thru_hole circle
 			(at 7.62 0 180)
@@ -7546,7 +7546,7 @@
 			(pinfunction "GPIO3/MOSI")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "af9b1610-5aca-4319-bebb-fc82e2eddabc")
+			(uuid "90f53417-f1a0-4275-b92f-db8c250e6461")
 		)
 		(pad "12" thru_hole circle
 			(at 7.62 2.54 180)
@@ -7568,7 +7568,7 @@
 			(pinfunction "3V3")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ee10771d-2461-49a8-bc8d-4ddd5c2e20a8")
+			(uuid "14171107-ffbf-4b71-8d57-85e8d2c83483")
 		)
 		(pad "13" thru_hole circle
 			(at 7.62 5.08 180)
@@ -7590,7 +7590,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "eb82810c-7a15-4a38-85ed-9d2d9a655857")
+			(uuid "0d6b7937-1b1c-410e-8e56-2ea15337a314")
 		)
 		(pad "14" thru_hole circle
 			(at 7.62 7.62 180)
@@ -7612,7 +7612,7 @@
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "d7c65109-267e-480a-862f-d641235db64b")
+			(uuid "5a91d452-88bf-45ee-a018-168ae7fcdc7e")
 		)
 		(embedded_fonts no)
 		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
