@@ -1,2 +1,5 @@
-#define ENCODER_A_PINS { GP3 }
-#define ENCODER_B_PINS { GP4 }
+#define ENCODER_A_PINS {GP3}
+#define ENCODER_B_PINS {GP4}
+
+#define WS2812_DI_PIN GP0
+#define RGBLIGHT_LED_COUNT 9
