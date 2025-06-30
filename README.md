@@ -1,20 +1,20 @@
 # Spookpad
 
-A 3x3 macropad made with [Hack Club](https://hackclub.com/)'s [Hackpad](https://hackpad.hackclub.com) program.\
+A 3x3 macropad made with the help of [Hack Club](https://hackclub.com/)'s [Hackpad](https://hackpad.hackclub.com) program.\
 There are 8 keys that are backlit with LEDs, a rotary encoder, an OLED screen, and a XIAO RP2040 as the microcontroller.
 
 ## CAD
 
-The case fits together using 4 M3 bolts and M3 heatset inserts.\
-The case is made of 3 separate printed pieces.\
-The PCB just floats inside the 3D printed case. I would suggest that some insulation or some other material is placed inside, so that the PCB being supported by that and not by the sautered joints.
+The case fits together using four M3 bolts and four M3 heatset inserts.\
+The case is made of three separate printed pieces.\
+The PCB just floats inside the 3D printed case. I would suggest that some insulation or some other material is placed inside, so that the PCB can be properly supported, instead of being supported by the sautered joints.
 
 ![An image of the spookpad rightside up](cad/assets/spookpad-rightside-up.png)
 ![An image of the spookpad upside down](cad/assets/spookpad-upside-down.png)
 
 ## PCB
 
-The PCB was created in Kicad. The silkscreen images were imported using Kicad's image converter.
+The PCB was created in KiCad. The silkscreen images were imported using KiCad's image converter.
 
 ### Schematic
 
@@ -32,15 +32,16 @@ The PCB was created in Kicad. The silkscreen images were imported using Kicad's 
 
 This macropad uses [QMK](https://docs.qmk.fm/) for firmware.
 
-- Rotary encoder knob djusts the volume.
-- By default, each key is bound to type out a number. (numbers are 1 through nine; sorry no zero)
+- Rotary encoder knob adjusts the volume.
+- By default, each key is bound to type out a number. The keys can type out the numbers 1 through 9. (There aren't enough keys to type out the number 0)
 - This macropad is compatible with [VIA](https://caniusevia.com/), so that it can actually macro.
-- The OLED screen should play this animation at all times\
+- The OLED screen should play the animation below at all times\
 ![a .gif file of the animation, which shows a ball that flies back and forth](firmware/assets/placeholder-animation.gif)
+  - Still playing with the idea of displaying useful information.
 
 ## Bill of Materials (BOM)
 
-Physical materials needed to make this macropad
+Physical materials needed to make this macropad:
 
 - 8x Cherry MX Switches
 - 8x DSA Keycaps
