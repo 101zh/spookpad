@@ -38,7 +38,7 @@ This macropad uses [QMK](https://docs.qmk.fm/) for firmware.
 - The OLED screen should play this animation at all times\
 ![a .gif file of the animation, which shows a ball that flies back and forth](firmware/assets/placeholder-animation.gif)
 
-## BOM
+## Bill of Materials (BOM)
 
 Physical materials needed to make this macropad
 
@@ -53,3 +53,9 @@ Physical materials needed to make this macropad
 - 1x Seeed Studio XIAO RP2040
 - 1x 3D printed knob for the rotary encoder
 - 1x 3D printed case (3 separate pieces)
+
+## Copyright
+
+Copyright (C) 2025 101zh
+
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.
