@@ -47,7 +47,7 @@ Physical materials needed to make this macropad:
 - 8x DSA Keycaps
 - 1x EC11 Rotary Encoder
 - 9x Through-hole 1N4148 Diodes
-- 9x SK6812 MINI-E LEDs
+- 9x SK6812 MINI LEDs
 - 4x M3x16mm Screws
 - 4x M3x5mx4mm Heatset Inserts
 - 1x 0.91" OLED Display
