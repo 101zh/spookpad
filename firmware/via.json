@@ -7,7 +7,7 @@
         "cols": 3
     },
     "layouts": {
-        "keymaps": [
+        "keymap": [
             [
                 "0,0",
                 "0,1",
