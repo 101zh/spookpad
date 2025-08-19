@@ -3,6 +3,9 @@
 A 3x3 macropad made with the help of [Hack Club](https://hackclub.com/)'s [Hackpad](https://hackpad.hackclub.com) program.\
 There are 8 keys that are backlit with LEDs, a rotary encoder, an OLED screen, and a XIAO RP2040 as the microcontroller.
 
+![alt text](demo/IMG_4720.jpg)
+<video controls src="demo/Video Clip (2025-08-19 09_33_43).mp4" title="Video of the Spookpad working"></video>
+
 ## CAD
 
 The case fits together using four M3 bolts and four M3 heatset inserts.\
@@ -59,4 +62,4 @@ Physical materials needed to make this macropad:
 
 Copyright (C) 2025 101zh
 
-This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at <https://mozilla.org/MPL/2.0/>.
