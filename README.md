@@ -4,7 +4,8 @@ A 3x3 macropad made with the help of [Hack Club](https://hackclub.com/)'s [Hackp
 There are 8 keys that are backlit with LEDs, a rotary encoder, an OLED screen, and a XIAO RP2040 as the microcontroller.
 
 ![alt text](demo/IMG_4720.jpg)
-<video controls src="demo/Video Clip (2025-08-19 09_33_43).mp4" title="Video of the Spookpad working"></video>
+
+https://github.com/user-attachments/assets/52a98100-4cb5-45ce-95d2-a7054d29ba24
 
 ## CAD
 
